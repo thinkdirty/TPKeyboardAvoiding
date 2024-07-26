@@ -10,10 +10,7 @@ let package = Package(
         .target(
             name: "TPKeyboardAvoiding",
             path: ".",
-            publicHeadersPath: "include",
-            cSettings: [
-                .headerSearchPath("include")
-            ]
+            publicHeadersPath: "include"
         )
     ]
 )
