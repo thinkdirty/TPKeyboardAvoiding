@@ -10,7 +10,7 @@ let package = Package(
         .target(
             name: "TPKeyboardAvoiding",
             path: "TPKeyboardAvoiding",
-            publicHeadersPath: "include"
+            publicHeadersPath: "include/module"
         )
     ]
 )
