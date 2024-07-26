@@ -9,7 +9,7 @@ let package = Package(
     targets: [
         .target(
             name: "TPKeyboardAvoiding",
-            path: ".",
+            path: "TPKeyboardAvoiding",
             publicHeadersPath: "include"
         )
     ]
